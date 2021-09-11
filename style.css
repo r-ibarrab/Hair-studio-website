@@ -313,7 +313,7 @@ hr{
     border-radius: 5px;
     box-shadow: 0 10px 20px 3px #00968814;
     cursor: pointer;
-
+    transition: 0.5s;
 }
 
 .testimonial-col p{
@@ -332,6 +332,14 @@ hr{
     margin-right: 20px;
     border-radius: 3px;
 
+}
+
+.user-info small{
+    color: #009688;
+}
+
+.testimonial-col:hover{
+    transform: translateY(7px);
 }
 
 
@@ -375,6 +383,10 @@ hr{
     }
     .single-service:hover .service-desc{
         bottom:25% !important;
+    }
+
+    .testimonial-col{
+        flex-basis: 100%;
     }
     
 }
